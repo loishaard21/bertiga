@@ -1,0 +1,69 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: white;
+    padding: 10px 20px;
+  }
+  
+  .navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin: 0 15px;
+  }
+  .navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4B2A14; /* Coklat tua */
+  color: white;
+  padding: 50px 20px;
+  position: relative;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-family: "Georgia", serif;
+}
+
+.hero-content h2 {
+  font-size: 64px;
+  font-family: "Georgia", serif;
+  font-weight: bold;
+}
+
+.hero-image img {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url('chocolate-drip.png') no-repeat bottom center;
+  background-size: cover;
+}
