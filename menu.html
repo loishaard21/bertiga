@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Keripik Pisang Lumer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            
+        }
+        header {
+            background-color: #ffcc00;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lazada.co.id%2Fproducts%2Fterlariss-keripik-pisang-lumer-250gr-aneka-rasa-kaelicious-i7726066558.html&psig=AOvVaw2f2Ai3mc8mClix--86-jgH&ust=1737879152253000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKjIwL-2kIsDFQAAAAAdAAAAABAE');
+
+        }
+        .menu-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .menu-item {
+            background-color: #fff;
+            border-radius: 8px;
+            margin: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            background-size: cover;
+            background-position: center;
+            height: 350px; /* Mengatur tinggi item */
+            color: white;
+        }
+        .menu-item img {
+            display: none; /* Menyembunyikan gambar karena latar belakang sudah ada */
+        }
+        .menu-item h3 {
+            margin: 15px 0;
+            font-size: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .menu-item p {
+            font-size: 14px;
+            margin-bottom: 15px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+        .menu-item .price {
+            font-weight: bold;
+            font-size: 16px;
+            color: #ff5733;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+        .order-btn {
+            background-color: #ff5733;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 2;
+        }
+        .order-btn:hover {
+            background-color: #e64a19;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Menu Keripik Pisang Lumer</h1>
+    <p>Lezat dan renyah, siap memanjakan lidah Anda!</p>
+</header>
+
+<div class="menu-container">
+    <!-- Menu Item 1 -->
+    <div class="menu-item" style="background-image: url('https://via.placeholder.com/250x150.png?text=Keripik+Pisang+Original');">
+        <h3>Keripik Pisang Original</h3>
+        <p>Keripik pisang renyah dengan rasa asli pisang yang nikmat.</p>
+        <p class="price">Rp 15.000</p>
+        <a href="#" class="order-btn">Pesan Sekarang</a>
+    </div>
+
+    <!-- Menu Item 2 -->
+    <div class="menu-item" style="background-image: url('https://via.placeholder.com/250x150.png?text=Keripik+Pisang+Coklat');">
+        <h3>Keripik Pisang Lumer Coklat</h3>
+        <p>Keripik pisang dengan topping coklat lumer yang manis.</p>
+        <p class="price">Rp 18.000</p>
+        <a href="#" class="order-btn">Pesan Sekarang</a>
+    </div>
+
+    <!-- Menu Item 3 -->
+    <div class="menu-item" style="background-image: url('https://via.placeholder.com/250x150.png?text=Keripik+Pisang+Keju');">
+        <h3>Keripik Pisang Lumer Keju</h3>
+        <p>Keripik pisang dengan topping keju leleh yang gurih.</p>
+        <p class="price">Rp 20.000</p>
+        <a href="#" class="order-btn">Pesan Sekarang</a>
+    </div>
+</div>
+
+</body>
+</html>
